@@ -80,7 +80,7 @@ public class ClienteService {
         // PASSAR NULL (cid) PARA FUNCIONAR
 		Cidade cid = new Cidade(objDto.getCidadeId(), null, null);
 				
-		Endereco end = new Endereco(null, objDto.getLogradouro(), objDto.getNumero(), objDto.getComplemento(), objDto.getBairro(), objDto.getCep(), cli, null); // cid);
+		Endereco end = new Endereco(null, objDto.getLogradouro(), objDto.getNumero(), objDto.getComplemento(), objDto.getBairro(), objDto.getCep(), cli, null); //cid);
 		cli.getEnderecos().add(end);
 		cli.getTelefones().add(objDto.getTelefone1());
 		if (objDto.getTelefone2()!=null) {
@@ -97,3 +97,4 @@ public class ClienteService {
 		newObj.setEmail(obj.getEmail());
 	}
 }
+
