@@ -2,8 +2,6 @@ package com.wagnerpires.cursomc.resources.exceptions;
 
 import java.io.Serializable;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-
 public class StandardError implements Serializable{
 	private static final long serialVersionUID = 4L;
 	private Integer status;
