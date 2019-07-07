@@ -9,7 +9,7 @@ import org.hibernate.validator.constraints.Length;
 
 import com.wagnerpires.cursomc.domain.Cliente;
 
-public class ClienteDTO implements Serializable{
+public class ClienteDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	private Integer id;
